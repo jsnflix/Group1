@@ -37,7 +37,7 @@ select{
 
 .products .col-4 {
   flex-basis: 25%;
-  padding: 10px;
+  padding: 20px;
   min-width: 200px;
   margin-bottom: 50px;
   border: 1px solid #fff;
@@ -50,12 +50,12 @@ select{
   justify-content: flex-end;
   margin: 20px;
 }
-
 .products .col-4 h4 {
   color: #333;
   font-weight: normal;
   font-size: 16px;
   transition: all .3s ease-in-out;
+  padding-top: 20px;
 }
 .products .col-4:hover {
   border: 1px solid brown;
