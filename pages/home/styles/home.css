@@ -84,13 +84,13 @@ body {
     background-image: cover;
 }
 .categories .col-3 .featured-desktops {
-    background: url(../images/featured-2.avif);
+    background: url(../home/images/featured-2.avif);
     background-position: center;
     background-repeat: no-repeat;
     background-image: cover;
 }
 .categories .col-3 .featured-accessories {
-    background: url(../images/featured-3.avif);
+    background: url(../home/images/featured-3.avif);
     background-position: center;
     background-repeat: no-repeat;
     background-image: cover;
