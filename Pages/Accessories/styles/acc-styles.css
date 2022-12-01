@@ -22,17 +22,15 @@
 }
 .header nav #check {
   display: none;
-  
 }
 /*---- JS script extra class ----*/
 .sticky {
   position: fixed;
   top: 0;
-  background: rgb(82,80,80);
-  background: linear-gradient(140deg, rgba(82,80,80,1) 3%, rgba(255,255,255,1) 23%, rgba(5,5,5,0.8463760504201681) 45%, rgba(0,0,0,0.7455357142857143) 66%, rgba(139,139,139,0.8015581232492998) 86%);
+  background: rgb(82, 80, 80);
+  background: linear-gradient(140deg, rgba(82, 80, 80, 1) 3%, rgba(255, 255, 255, 1) 23%, rgba(5, 5, 5, 0.8463760504201681) 45%, rgba(0, 0, 0, 0.7455357142857143) 66%, rgba(139, 139, 139, 0.8015581232492998) 86%);
   width: 100%;
   z-index: 999;
-  
 }
 .sticky nav .first-ul li {
   font-size: 17px;
@@ -40,104 +38,111 @@
 .sticky img {
   width: 145px;
 }
-
 .navbar.sticky ul li a {
   font-size: 12px;
   padding: 2px;
   font-size: 16px important;
 }
-
 @media screen and (max-width: 576px) {
   .header {
-      background-color: rgb(172, 161, 161);
+    background-color: rgb(172, 161, 161);
   }
+
   .header nav {
-      display: flex;
-      justify-content: end;
+    display: flex;
+    justify-content: end;
   }
+
   .header nav .first-ul {
-      display: flex;
-      position: fixed;
-      background-color: rgb(150, 150, 150);
-      top: 90px;
-      left: 100%;
-      text-align: center;
-      flex-direction: column;
-      width: 100%;
-      transition: all .4s ease-in-out;
+    display: flex;
+    position: fixed;
+    background-color: rgb(150, 150, 150);
+    top: 90px;
+    left: 100%;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    transition: all .4s ease-in-out;
   }
+
   .header nav .first-ul li {
-      margin: 15px;
+    margin: 15px;
   }
+
   .header nav .checkbtn {
-      display: flex;
+    display: flex;
   }
-  .header nav #check:checked ~ .first-ul {
-      left: 0;
+
+  .header nav #check:checked~.first-ul {
+    left: 0;
   }
+
   .header .large-screen-hidden {
-      display: inline-block;
+    display: inline-block;
   }
-  
+
   .sticky {
-      display: none;
+    display: none;
   }
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
 
-  .header {
-      background-color: rgb(172, 161, 161);
-  }
   .header nav {
-      display: flex;
+    display: flex;
   }
+
   .header nav .first-ul {
-      display: flex;
-      position: fixed;
-      background-color: rgb(150, 150, 150);
-      top: 100px;
-      left: 100%;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      transition: all .5s ease-in-out;
+    display: flex;
+    position: fixed;
+    background-color: rgb(150, 150, 150);
+    top: 100px;
+    left: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    transition: all .5s ease-in-out;
   }
+
   .header nav .first-ul li {
-      margin: 15px;
+    margin: 15px;
   }
+
   .header nav .checkbtn {
-      display: block;
+    display: block;
   }
-  .header nav #check:checked ~ .first-ul {
-      left: 0;
+
+  .header nav #check:checked~.first-ul {
+    left: 0;
   }
 
   .header .large-screen-hidden {
-      display: block;
+    display: block;
   }
 
   .sticky {
-      display: none;
+    display: none;
   }
 }
+
 /* header */
-.row{
+.row {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.col-4{
+.col-4 {
   flex-basis: 20%;
   padding: 10px;
   min-width: 200px;
   margin-bottom: 50px;
   transition: transform 0.5s;
-  
+
 }
-.title{
+
+.title {
   text-align: center;
   margin: 0 auto 80px;
   position: relative;
@@ -145,7 +150,8 @@
   color: #555;
   padding-bottom: 30px;
 }
-.title::after{
+
+.title::after {
   content: '';
   background: #ff523b;
   width: 80px;
@@ -156,23 +162,26 @@
   left: 50%;
   transform: translateX(-50%);
 }
-h4{
+
+h4 {
   padding-top: 50px;
   color: #555;
   font-weight: normal;
 }
-.col-4:hover{
+
+.col-4:hover {
   transform: translateY(-5px);
 }
+
 .title {
   text-align: center;
-  margin: 0 auto 80px ;
+  margin: 0 auto 80px;
   line-height: 60px;
   color: #000;
   position: relative;
 }
 
-.title::after{
+.title::after {
   content: '';
   background-color: brown;
   width: 80px;
@@ -223,6 +232,7 @@ h4{
 .products .col-4 p {
   font-size: 15px;
 }
+
 /* **** BRANDS ****** */
 
 .brands {
@@ -231,7 +241,7 @@ h4{
 
 .brands .col-5 {
   flex-basis: 20%;
-  text-align: center!important;
+  text-align: center !important;
 }
 
 .brands img {
@@ -247,63 +257,75 @@ h4{
 /* **** BRANDS ENDS ****** */
 /* footer */
 .footer {
-    background-color: #000;
+  background-color: #000;
 }
 
 footer .col-3 {
-    text-align: center;
-    margin: 2px auto;
-    color: #fff;  
+  text-align: center;
+  margin: 2px auto;
+  color: #fff;
 }
+
 footer .links {
-    flex-basis: 15%;
+  flex-basis: 15%;
 }
+
 footer .col-3 img {
-    width: 50%;
+  width: 50%;
 }
+
 footer .col-3 p {
-    font-size: 13px;
-    text-align: left;
+  font-size: 13px;
+  text-align: left;
 }
 
 footer h6 {
-    font-size: 16px;
+  font-size: 16px;
 }
+
 footer ul li {
-    text-align: center;
-    margin-bottom: 5px ;
-    font-size: 13px;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 13px;
 }
 
 footer ul li a {
-    color: #777;
-    text-decoration: none;
+  color: #777;
+  text-decoration: none;
 }
+
 footer ul li a:hover {
-    color: brown;
+  color: brown;
 }
+
 footer .col-3 .col-12 input {
-    border: 1px solid rgba(165, 42, 42, 0.418);
+  border: 1px solid rgba(165, 42, 42, 0.418);
 }
+
 footer .col-3 .col-12 input:focus {
-    outline: none;
+  outline: none;
 }
+
 footer .col-3 .col-12 a {
-    border: 1px solid rgba(165, 42, 42, 0.418);
-    transition: all .2s ease-in-out;
-} 
+  border: 1px solid rgba(165, 42, 42, 0.418);
+  transition: all .2s ease-in-out;
+}
+
 footer .col-3 .col-12 a:hover .bi-bell-fill {
-    color: brown;
+  color: brown;
 }
+
 footer hr {
-    border: none;
-    background-color: rgb(158, 158, 158);
-    height: 2px;
-    margin: 5px auto;
+  border: none;
+  background-color: rgb(158, 158, 158);
+  height: 2px;
+  margin: 5px auto;
 }
-footer .row .col-3 .fs-6{
-    font-size: 12px!important;
-    color: #777;
-    margin-bottom: 5px;
+
+footer .row .col-3 .fs-6 {
+  font-size: 12px !important;
+  color: #777;
+  margin-bottom: 5px;
 }
+
 /* footer */
