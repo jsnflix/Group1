@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
+  
 }
 .right{
   margin: 0 auto 80px ;
@@ -13,6 +14,10 @@ body {
 select{
   padding: 20px;
 }
+/* Header */
+
+/* Featured Products */
+
 .title {
   text-align: center;
   margin: 0 auto 80px ;
@@ -31,31 +36,24 @@ select{
   left: 50%;
   transform: translateX(-50%);
 }
-.row{
-  margin-bottom: 50px;
-}
 
 .products .col-4 {
-  flex-basis: 25%;
-  padding: 20px;
+  flex-basis: 23%;
+  margin: 10px;
+  padding: 5px;
   min-width: 200px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   border: 1px solid #fff;
   transition: all .3s ease-in-out;
   position: relative;
- 
-}
-.pagination{
-  display: flex;
-  justify-content: flex-end;
-  margin: 20px;
+  background: rgb(238,238,238);
+  background: linear-gradient(0deg, rgba(238,238,238,0.47102591036414565) 35%, rgba(55,55,55,0.8519782913165266) 80%);
 }
 .products .col-4 h4 {
   color: #333;
   font-weight: normal;
   font-size: 16px;
   transition: all .3s ease-in-out;
-  padding-top: 20px;
 }
 .products .col-4:hover {
   border: 1px solid brown;
@@ -67,7 +65,8 @@ select{
 .products .col-4 img {
   width: 100%;
   height: 300px;
-  object-fit: contain;
+  object-fit: cover;
+  background-color: white;
 }
 .products .col-4 p .wishlist {
   padding: 2px 5px;
@@ -76,6 +75,9 @@ select{
   opacity: 0;
   transition: all .2s ease-in-out;
   color: #ffffff;
+}
+.products .col-4 a p {
+  margin: 2px 5px;
 }
 .products .col-4 a p:hover .wishlist {
   opacity: 1;
@@ -101,15 +103,13 @@ select{
   padding: 2px;
 }
 .products .col-4 p {
-  font-size: 20px;
+  font-size: 15px;
   margin: 0;
-
 }
 .rating {
   color: brown;
   margin-bottom: 3px;
 }
-
 .products .btn {
   font-size: 14px;
   padding: 5px 15px;
@@ -117,11 +117,9 @@ select{
   border-radius: 0;
   margin-bottom: 50px;
 }
-
 .products .btn:hover {
   border: 1px solid brown;
 }
-
 .products .cart a {
   color: #fff;
   background-color: #000;
@@ -133,12 +131,33 @@ select{
   transition: color .3s ease-in-out;
   transition: background-color .3s ease-in-out;
 }
-
 .products .col-4:hover .cart a {
   opacity: 1;
 }
-
 .products .cart a:hover {
   color: #000;
   background-color: #fff;
 }
+.products .product-price-cart {
+  margin-bottom: 5px;
+}
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+}
+
+.pagination a {
+  color: black;
+  padding: 20px 36px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+/**** FEATURED PRODUCTS *****/
