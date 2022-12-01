@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+
 }
 
 
@@ -78,19 +79,19 @@ body {
     width: 100%;
 }
 .categories .col-3 .featured-cards {
-    background: url(../home/images/featured-1.jpeg);
+
     background-position: center;
     background-repeat: no-repeat;
     background-image: cover;
 }
 .categories .col-3 .featured-desktops {
-    background: url(../home/images/featured-2.avif);
+
     background-position: center;
     background-repeat: no-repeat;
     background-image: cover;
 }
 .categories .col-3 .featured-accessories {
-    background: url(../home/images/featured-3.avif);
+
     background-position: center;
     background-repeat: no-repeat;
     background-image: cover;
@@ -171,13 +172,7 @@ body {
 }
 
 .products .col-4 {
-    flex-basis: 25%;
-    padding: 10px;
-    min-width: 200px;
-    margin-bottom: 50px;
-    border: 1px solid #fff;
-    transition: all .3s ease-in-out;
-    position: relative;
+
 }
 .products .col-4 h4 {
     color: #333;
@@ -205,6 +200,7 @@ body {
     transition: all .2s ease-in-out;
     color: #ffffff;
 }
+
 .products .col-4 a p:hover .wishlist {
     opacity: 1;
 }
@@ -264,6 +260,7 @@ body {
     color: #000;
     background-color: #fff;
 }
+
 
 /**** FEATURED PRODUCTS *****/
 
@@ -402,6 +399,7 @@ body {
         border: 1px solid rgb(165, 130, 130);
     }
 
+
     .offer .row {
         flex-direction: column;
     }
@@ -477,6 +475,7 @@ body {
     .products .cart a {
         opacity: 1;
     }
+
 
     .offer .row {
         flex-direction: column;
