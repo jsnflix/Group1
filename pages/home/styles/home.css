@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 
@@ -78,19 +79,19 @@ body {
     width: 100%;
 }
 .categories .col-3 .featured-cards {
-    background: url(../home/images/featured-1.jpeg);
+    background: url(../images/featured-1.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-image: cover;
 }
 .categories .col-3 .featured-desktops {
-    background: url(../home/images/featured-2.avif);
+    background: url(../images/featured-2.avif);
     background-position: center;
     background-repeat: no-repeat;
     background-image: cover;
 }
 .categories .col-3 .featured-accessories {
-    background: url(../home/images/featured-3.avif);
+    background: url(../images/featured-3.avif);
     background-position: center;
     background-repeat: no-repeat;
     background-image: cover;
@@ -171,13 +172,16 @@ body {
 }
 
 .products .col-4 {
-    flex-basis: 25%;
-    padding: 10px;
+    flex-basis: 23%;
+    margin: 10px;
+    padding: 5px;
     min-width: 200px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     border: 1px solid #fff;
     transition: all .3s ease-in-out;
     position: relative;
+    background: rgb(238,238,238);
+    background: linear-gradient(0deg, rgba(238,238,238,0.47102591036414565) 35%, rgba(55,55,55,0.8519782913165266) 80%);
 }
 .products .col-4 h4 {
     color: #333;
@@ -204,6 +208,9 @@ body {
     opacity: 0;
     transition: all .2s ease-in-out;
     color: #ffffff;
+}
+.products .col-4 a p {
+    margin: 2px 5px;
 }
 .products .col-4 a p:hover .wishlist {
     opacity: 1;
@@ -263,6 +270,9 @@ body {
 .products .cart a:hover {
     color: #000;
     background-color: #fff;
+}
+.products .product-price-cart {
+    margin-bottom: 5px;
 }
 
 /**** FEATURED PRODUCTS *****/
@@ -401,6 +411,9 @@ body {
         padding: 20px;
         border: 1px solid rgb(165, 130, 130);
     }
+    .products .view-more-btn {
+        justify-content: center!important;
+    }
 
     .offer .row {
         flex-direction: column;
@@ -476,6 +489,9 @@ body {
     }
     .products .cart a {
         opacity: 1;
+    }
+    .products .view-more-btn {
+        justify-content: center!important;
     }
 
     .offer .row {
