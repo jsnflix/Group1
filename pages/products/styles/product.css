@@ -302,6 +302,9 @@ background: linear-gradient(274deg, rgba(255,255,255,0.8939950980392157) 0%, rgb
         flex-basis: 100%;
         width: 100%;
     }
+    .product-page-row .col-6 .col-3 .small-img-container img:hover {
+        transform: scale(1.2);
+    }
 
     .testimonial .row {
         flex-direction: column;
