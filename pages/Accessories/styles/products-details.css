@@ -14,7 +14,7 @@ body {
   background: linear-gradient(140deg, rgba(82,80,80,1) 3%, rgba(255,255,255,1) 23%, rgba(5,5,5,0.8463760504201681) 45%, rgba(0,0,0,0.7455357142857143) 66%, rgba(139,139,139,0.8015581232492998) 86%);
   position: fixed;
   width: 100%;
-  padding: 15px;
+  
 }
 .header nav ul li {
   padding-left: 22px;
