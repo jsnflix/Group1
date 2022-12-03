@@ -1,0 +1,343 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/*** SECTION 1 CONTENTS  ***/
+
+.section-1 {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(342deg, rgba(0,0,0,0.9023984593837535) 50%, rgba(255,255,255,0) 100%);
+    min-height: 400px;
+}
+.banner .col-12 p {
+    color: rgb(182, 182, 182);
+    font-size: 10px;
+    font-style: italic;
+    margin: 70px 0 0 0;
+}
+
+.banner .col-12 h2{
+    color: #fff;
+    font-size: 35px;
+    line-height: 47px;
+    margin: 30px 0 0 0;
+    text-shadow: -1px 1px 19px rgba(0,0,0,0.49);
+}
+
+
+/*** SECTION 2 CONTENTS  ***/
+
+
+
+/**** FEATURED PRODUCTS *****/
+
+.products .col-4 {
+    flex-basis: 23%;
+    margin: 10px;
+    padding: 5px;
+    min-width: 200px;
+    margin-bottom: 30px;
+    border: 1px solid #fff;
+    transition: all .3s ease-in-out;
+    position: relative;
+    background: rgb(238,238,238);
+    background: linear-gradient(0deg, rgba(238,238,238,0.47102591036414565) 35%, rgba(55,55,55,0.8519782913165266) 80%);
+}
+.products .col-4 h4 {
+    color: #333;
+    font-weight: normal;
+    font-size: 16px;
+    transition: all .3s ease-in-out;
+}
+.products .col-4:hover {
+    border: 1px solid brown;
+    transform: translateY(-20px);
+}
+.products .col-4:hover h4 {
+    font-weight: 500;
+}
+.products .col-4 img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.products .col-4 p .wishlist {
+    padding: 2px 5px;
+    background-color: rgba(15, 14, 14, 0.795);
+    font-size: 12px;
+    opacity: 0;
+    transition: all .2s ease-in-out;
+    color: #ffffff;
+}
+.products .col-4 a p {
+    margin: 2px 5px;
+}
+.products .col-4 a p:hover .wishlist {
+    opacity: 1;
+}
+.products .col-4 a p {
+    position: absolute;
+    color: #000;
+}
+.products .col-4 a p .bi-suit-heart {
+    opacity: 0;
+    color: rgb(0, 0, 0);
+}
+.products .col-4:hover .bi-suit-heart {
+    opacity: 1;
+    
+}
+.products .col-4 .bi-suit-heart:hover {
+    color: brown;
+}
+.products .col-4 .save {
+    background-color: #bb0628;
+    color: #fff;
+    padding: 2px;
+}
+.products .col-4 p {
+    font-size: 15px;
+    margin: 0;
+    font-weight: 500;
+}
+.rating {
+    color: brown;
+    margin-bottom: 3px;
+}
+.products .btn {
+    font-size: 14px;
+    padding: 5px 15px;
+    border: 1px solid #555;
+    border-radius: 0;
+    margin-bottom: 50px;
+}
+.products .btn:hover {
+    border: 1px solid brown;
+}
+.products .cart a {
+    color: #fff;
+    background-color: #000;
+    padding: 5px 15px;
+    font-size: 13px;
+    border: 1px solid rgb(0, 0, 0);
+    opacity: 0;
+    transition: opacity .4s ease-in-out;
+    transition: color .3s ease-in-out;
+    transition: background-color .3s ease-in-out;
+}
+.products .col-4:hover .cart a {
+    opacity: 1;
+}
+.products .cart a:hover {
+    color: #000;
+    background-color: #fff;
+}
+.products .product-price-cart {
+    margin-bottom: 5px;
+}
+
+/* added */
+.products .row .col-2 {
+    flex-basis: 25%;
+}
+.products .sort{
+    border-radius: 0;
+    border-color: brown;
+    font-size: 14px;
+    width: 100%;
+}
+.products .sort:focus{
+    outline: none;
+}
+.products .pagenation .col-3 {
+    padding-bottom: 50px;
+}
+.products .pagenation .col-3 span{
+    border: 1px solid brown;
+    height: 40px;
+    width: 40px;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all .2s ease-in-out;
+}
+.products .pagenation .col-3 span:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+/* **** TESTIMONIAL ****** */
+.testimonial {
+    margin-top: 100px;
+}
+
+.testimonial h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.testimonial p {
+    font-size: 12px;
+    color: #777;
+}
+
+.testimonial .bi-quote {
+    font-size: 45px;
+    color: brown;
+}
+.testimonial .col-tes {
+    text-align: center;
+    padding: 40px 20px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.testimonial .col-tes:hover {
+    transform: translateY(-20px);
+}
+
+.testimonial img {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* **** TESTIMONIAL ENDS ****** */
+
+
+/* **** BRANDS ****** */
+
+.brands {
+    margin: 50px 0;
+}
+
+.brands .col-5 {
+    flex-basis: 20%;
+    text-align: center!important;
+}
+
+.brands img {
+    width: 100px;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.brands img:hover {
+    filter: grayscale(0);
+}
+
+/* **** BRANDS ENDS ****** */
+
+/******** MEDIA QUERIES **********/
+
+@media screen and (max-width: 576px) {
+    .banner .col-6 {
+        flex-basis: 100%;
+    }
+    .banner .col-6 h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .banner .col-6 p {
+        font-size: 12px;
+    }
+    .components .col-4 {
+        flex-basis: 50%;
+    }
+
+    .products .row {
+        flex-direction: column;
+    }
+    .products .col-4 .cart a {
+        opacity: 1 !important;
+    }
+    .products .row .col-4{
+        width: 85%;
+        margin: 10px auto;
+        padding: 20px;
+        border: 1px solid rgb(165, 130, 130);
+    }
+    .products .row .col-2 {
+        flex-basis: 100%;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .pagenation .col-3 { 
+        flex: 100%;
+        width: 100%;
+    }
+
+    .testimonial .row {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .testimonial .row .col-3 {
+        flex: 100%;
+        width: 75%;
+        text-align: center;
+        margin: 5px auto;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .banner .row-cols-md-2 {
+        padding: 25px 25px;
+    }
+    .banner .col-6 {
+        flex-basis: 100%;
+    }
+    .banner .col-6 h1 {
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .products .row .col-4 .buy-me{
+        flex-wrap: wrap;
+    }
+    .products .row .col-4{
+        flex: 45%;
+        width: 100%;
+        margin: 10px;
+        padding: 20px;
+        border: 1px solid rgb(165, 130, 130);
+    }
+    .products .cart a {
+        opacity: 1;
+    }
+    .products .row .col-2 {
+        flex-basis: 45%;
+    }
+    .pagenation .col-3 { 
+        flex: 100%;
+        width: 100%;
+    }
+
+    .testimonial .row {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .testimonial .row .col-3 {
+        flex-basis: 30%;
+        width: 100%;
+        text-align: center;
+        margin: 5px auto;
+    }
+}

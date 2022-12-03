@@ -238,6 +238,7 @@ body {
 .products .col-4 p {
     font-size: 15px;
     margin: 0;
+    font-weight: 500;
 }
 .rating {
     color: brown;
@@ -434,11 +435,13 @@ body {
     .testimonial .row .col-3 {
         text-align: center;
         margin: 5px auto;
+        flex: 100%;
+        width: 75%;
     }
 
 
     .categories .row .col-3 {
-        flex-basis: 100%;
+        flex-basis: 75%;
     }
 }
 
@@ -504,6 +507,7 @@ body {
     }
 
     .testimonial .row .col-3 {
+        flex: 30%;
         width: 30%;
         text-align: center;
         margin: 5px auto;
