@@ -227,9 +227,10 @@ select{
   background-color: #bb0628;
   color: #fff;
   padding: 2px;
+  
 }
 .products .col-4 p {
-  font-size: 15px;
+  font-size: 20px;
   margin: 0;
 }
 .rating {
