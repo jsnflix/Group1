@@ -8,6 +8,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* header start */
 .header {
     background: rgba(255, 255, 255, 0);
     position: fixed;
@@ -37,15 +38,15 @@ body {
 .header .large-screen-hidden {
     display: none;
 }
+/* header end */
+
 /*---- JS script extra class ----*/
 .sticky {
     position: fixed;
     top: 0;
     background: rgba(0, 0, 0, 0.842);
     width: 100%;
-    z-index: 999;
-    
-    
+    z-index: 999; 
 }
 
 .sticky nav .first-ul li {
