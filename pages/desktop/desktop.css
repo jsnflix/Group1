@@ -21,9 +21,9 @@ body {
     color: #fff;
     font-size: 18px;
 }
-.header nav ul li a.active,
+.header nav ul li a.active, 
 .header nav ul li a:hover {
-    color: rgb(236, 115, 115); 
+    color: rgb(236, 115, 115);
 }
 .header nav .checkbtn {
     font-size: 25px;
@@ -279,17 +279,6 @@ nav ul li {
 /* ----- @media ----- */
 
 @media screen and (max-width: 576px) {
-    .banner .col-6 {
-        flex-basis: 100%;
-    }
-    .banner .col-6 h1 {
-        font-size: 30px;
-        line-height: 30px;
-    }
-    .banner .col-6 p {
-        font-size: 12px;
-    }
-
     .products .row {
         flex-direction: column;
     }
@@ -342,20 +331,6 @@ nav ul li {
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
-
-    .banner .row-cols-md-2 {
-        padding: 25px 25px;
-    }
-    .banner .col-6 {
-        flex-basis: 100%;
-    }
-    .banner .col-6 h1 {
-        font-size: 35px;
-        line-height: 40px;
-    }
-    .banner .col-6 video {
-        padding: 5px 0;
-    }
     
     .categories .row .col-3 {
         flex-basis: 33%;
