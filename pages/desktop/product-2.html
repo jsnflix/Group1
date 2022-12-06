@@ -15,7 +15,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="../styles/product.css">
+    <link rel="stylesheet" href="../products/styles/product.css">
+    <link rel="stylesheet" href="../products/styles/header.css">
+    <link rel="stylesheet" href="../home/styles/footer.css">
 
     <title>PNY - NVIDIA GeForce GT 1030 2GB PCI-E 3.0 Graphics Card - Black - Shop and Game</title>
 </head>
@@ -30,31 +32,28 @@
                 <div class="col-6">
                     <div class="logo">
                         <a href="#">
-                            <img src="../products/images/logo-white.png" width="150">
+                            <img src="../home/images/logo-white2.png" width="150">
                         </a>
                     </div>
                 </div>
                 <div class="col-6 d-flex justify-content-end">
-                    <nav class="navbar d-flex ">
+                    <nav class="navbar d-flex "> 
                         <input type="checkbox" id="check">
                         <label for="check" class="checkbtn mx-2 ">
                             <i class="bi bi-list"></i>
                         </label>
                         <ul class="first-ul d-flex list-unstyled mb-0" id="mainmenu">
                             <li class="nav-item">
-                                <a href="../home/home.html" class="nav-link ">Home</a>
+                                <a href="../home/home.html" class="nav-link active">Home</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle active" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Products
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-dark">
-                                    <li><a href="../Accessories/accessories.html" class="dropdown-item">Accessories</a>
-                                    </li>
-                                    <li><a href="../components/components.html" class="dropdown-item">Cards and
-                                            Components</a></li>
-                                    <li><a href="../desktop/desktop.html" class="dropdown-item active">Desktops</a></li>
+                                    <li><a href="../Accessories/accessories.html" class="dropdown-item">Accessories</a></li>
+                                    <li><a href="#" class="dropdown-item">Cards and Components</a></li>
+                                    <li><a href="#" class="dropdown-item">Desktops</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
@@ -74,7 +73,7 @@
                             <li class="nav-item d-flex justify-content-center mx-auto">
                                 <a href="#" class="nav-link d-flex">
                                     <span class="large-screen-hidden">
-                                        Account
+                                        Account 
                                     </span><i class="bi bi-person-circle mx-2" title="Profile"></i>
                                 </a>
                             </li>
@@ -84,6 +83,8 @@
             </div>
         </div>
     </header>
+
+    <!-- product -->
 
     <div class="container-lg mx-auto product-page">
         <div class="row product-page-row">
@@ -203,19 +204,66 @@
                                         <div class="col-12 specification-col">
                                             <div class="specification-col-rows d-flex">
                                                 <div class="col-6">
-                                                    <p><strong>Intel 12th Generation Core i7 <i class="bi bi-info-circle"></i></strong></p>
+                                                    <p><strong>Processor Model<i class="bi bi-info-circle"></i></strong></p>
+                                                </div>
+                                                <div class="col-6">
+                                                    <p>Intel 12th Generation Core i7</p>
                                                 </div>
                                             </div>
                                             <div class="specification-col-rows d-flex">
                                                 <div class="col-6">
-                                                    <p><strong>NVIDIA GeForce RTX 3070 Ti <i class="bi bi-info-circle"></i></strong></p>
+                                                    <p><strong>Processor Model Number <i class="bi bi-info-circle"></i></strong></p>
+                                                </div>
+                                                <div class="col-6">
+                                                    <p>12700KF</p>
                                                 </div>
                                             </div>
                                             <div class="specification-col-rows d-flex">
                                                 <div class="col-6">
-                                                    <p><strong>1000 gigabytes <i class="bi bi-info-circle"></i></strong></p>
+                                                    <p><strong>Storage Type <i class="bi bi-info-circle"></i></strong></p>
+                                                </div>
+                                                <div class="col-6">
+                                                    <p>SSD</p>
+                                                </div>
+                                            <!-- <div class="specification-col-rows d-flex">
+                                                <div class="col-6">
+                                                    <p><strong>Total Storage Capacity<i class="bi bi-info-circle"></i></strong></p>
+                                                </div>
+                                                <div class="col-6">
+                                                    <p>1000 gigabytes</p>
+                                                </div>
+                                            <div class="specification-col-rows d-flex">
+                                                <div class="col-6">
+                                                    <p><strong>Solid State Drive Capacity<i class="bi bi-info-circle"></i></strong></p>
+                                                </div> 
+                                                <div class="col-6">
+                                                    <p>1000 gigabytes</p>
                                                 </div>  
                                             </div>
+                                            <div class="specification-col-rows d-flex">
+                                                <div class="col-6">
+                                                    <p><strong>System Memory (RAM) <i class="bi bi-info-circle"></i></strong></p>
+                                                </div> 
+                                                <div class="col-6">
+                                                    <p>16 gigabytes</p>
+                                                </div>  
+                                            </div>
+                                            <div class="specification-col-rows d-flex">
+                                                <div class="col-6">
+                                                    <p><strong>Graphics <i class="bi bi-info-circle"></i></strong></p>
+                                                </div> 
+                                                <div class="col-6">
+                                                    <p>NVIDIA GeForce RTX 3070 Ti</p>
+                                                </div>  
+                                            </div>
+                                            <div class="specification-col-rows d-flex">
+                                                <div class="col-6">
+                                                    <p><strong>Operating System <i class="bi bi-info-circle"></i></strong></p>
+                                                </div> 
+                                                <div class="col-6">
+                                                    <p>Windows 11 Home</p>
+                                                </div>  
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>
@@ -354,6 +402,8 @@
             </div>
         </div>
     </div>
+        </div>
+        </div>
 
 
     <!-- ------------------------ TESTIMONIAL ---------------------- -->
@@ -440,7 +490,7 @@
             <div class="row d-flex justify-content-center align-items-start pt-4 ">
                 <div class="col-3">
                     <a href="#">
-                        <img src="../products/images/logo-white.png" class="mb-3">
+                        <img src="../home/images/logo-white2.png" class="mb-3">
                     </a>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, deserunt.</p>
                 </div>
@@ -497,54 +547,32 @@
 
      <!-- SCRIPTS  -->
      <!-- BOOTSTRAP  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
-
-    <!-- BURGER MENU ON MOBILE -->
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-
-
-    <!-- JQUERY FOR STICKY HEADER/NAV  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script type="text/javascript">
-
-        $(function () {
-
-            $(window).scroll(function () {
-
-                if ($(window).scrollTop() > 0) {
-                    $(".header").addClass("sticky");
-                } else {
-                    $(".header").removeClass("sticky");
-                }
-
-            });
-
-        });
-
-    </script>
-
-    <!-- JS FOR PRODUCT PAGE  -->
-
-    <script>
-        let productImage = document.getElementById("productImage");
-        let smallImage = document.getElementsByClassName("small-image");
-
-        smallImage[0].onclick = function () {
-            productImage.src = smallImage[0].src;
-        }
-        smallImage[1].onclick = function () {
-            productImage.src = smallImage[1].src;
-        }
-        smallImage[2].onclick = function () {
-            productImage.src = smallImage[2].src;
-        }
-        smallImage[3].onclick = function () {
-            productImage.src = smallImage[3].src;
-        }
-    </script>
-
-</body>
-
-</html>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+     crossorigin="anonymous"></script>
+ 
+ <!---------------- BURGER MENU ON MOBILE ------------->
+ <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+ 
+ 
+ <!-- JQUERY FOR STICKY HEADER/NAV  -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+     <script type="text/javascript">
+ 
+         $(function(){
+ 
+             $(window).scroll(function(){
+ 
+                 if($(window).scrollTop() > 0) {
+                     $(".header").addClass("sticky");
+                 } else {
+                     $(".header").removeClass("sticky");
+                 }
+ 
+             });
+ 
+         });
+         
+     </script>
+ </body>
+ </html>
