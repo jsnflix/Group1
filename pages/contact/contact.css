@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins";
+}
+
+.contact {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contact .col-6 {
+    padding: 20px;
+}
+.contact ul li {
+    margin-right: 25px;
+}
+
+.contact ul li a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s ease-in-out;
+}
+
+.contact ul li a:hover{
+    color: brown
+}
+
+.contact .col-6 .bi {
+    font-size: 30px;
+}
+
+.form .right-side .right-side-form {
+    display: grid;
+    width: 100%;
+    height: 350px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "name skype"
+        "email topic"
+        "message message"
+        "button button"
+    ;
+    column-gap: 15px;
+
+}
+
+.form {
+    background-color: rgb(202, 202, 202);
+    height: 476px;
+}
+
+.form 
+.right-side 
+.right-side-form input, 
+textarea {
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    border: 1px solid brown;
+
+}
+
+.form .right-side .right-side-form .name {
+    grid-area: name;
+}
+
+.form .right-side .right-side-form .skype {
+    grid-area: skype;
+}
+
+.form .right-side .right-side-form .email {
+    grid-area: email;
+}
+
+.form .right-side .right-side-form .topic {
+    grid-area: topic;
+}
+
+.form .right-side .right-side-form .message {
+    grid-area: message;
+}
+
+.form .right-side .right-side-form .button {
+    padding-top: 20px;
+    grid-area: button;
+}
+
+.right-side-form input[type="submit"] {
+    background-color: #d3d3d3;
+    border: 0;
+    cursor: pointer;
+}
+
+.button .btn {
+    width: 50%!important;
+    color: white;
+    background-color: #000!important;
+    border-radius: 0;
+    border: 1px solid #000!important;
+}
+
+.button .btn:hover {
+    color: #000;
+    background-color: #fff!important;
+
+}
+
+.fill-up {
+    padding-top: 10px!important;
+    font-style: italic;
+}
+
+@media screen and (max-width: 576px) {
+    .contact .row {
+        flex-direction: column!important;
+    }
+
+    .contact .row .col-6 {
+        flex-basis: 100%!important;
+        width: 100%;
+    }
+
+    .contact .row .content {
+        text-align: center;
+    }
+
+    .contact .row .content ul {
+        justify-content: center!important;
+    }
+
+    .form {
+        background-color: rgb(202, 202, 202);
+        height: 550px;
+    }
+
+}
