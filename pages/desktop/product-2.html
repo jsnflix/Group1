@@ -52,15 +52,15 @@
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-dark">
                                     <li><a href="../Accessories/accessories.html" class="dropdown-item">Accessories</a></li>
-                                    <li><a href="#" class="dropdown-item">Cards and Components</a></li>
-                                    <li><a href="#" class="dropdown-item">Desktops</a></li>
+                                    <li><a href="../components/components.html" class="dropdown-item">Cards and Components</a></li>
+                                    <li><a href="../desktop/desktop.html" class="dropdown-item">Desktops</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
                                 <a href="#" class="nav-link">About</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Contact</a>
+                                <a href="../contact/contact.html" class="nav-link">Contact</a>
                             </li>
                             <li class="nav-item d-flex justify-content-center mx-auto">
                                 <a href="#" class="nav-link d-flex">
@@ -574,5 +574,26 @@
          });
          
      </script>
+
+         <!-- JS FOR PRODUCT PAGE  -->
+
+    <script>
+        let productImage = document.getElementById("productImage");
+        let smallImage = document.getElementsByClassName("small-image");
+
+        smallImage[0].onclick = function () {
+            productImage.src = smallImage[0].src;
+        }
+        smallImage[1].onclick = function () {
+            productImage.src = smallImage[1].src;
+        }
+        smallImage[2].onclick = function () {
+            productImage.src = smallImage[2].src;
+        }
+        smallImage[3].onclick = function () {
+            productImage.src = smallImage[3].src;
+        }
+    </script>
+    
  </body>
  </html>
