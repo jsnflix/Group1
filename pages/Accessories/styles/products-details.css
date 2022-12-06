@@ -459,6 +459,9 @@ background: linear-gradient(274deg, rgba(255,255,255,0.8939950980392157) 0%, rgb
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
+  .product-page {
+    flex-direction: column!important;
+  }
 
   .products .row .col-4 .buy-me{
       flex-wrap: wrap;
