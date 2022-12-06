@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-    background: rgba(0, 0, 0, 0.842);
+    background: rgba(0, 0, 0, 0);
     position: fixed;
     width: 100%;
 }

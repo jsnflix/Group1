@@ -68,8 +68,7 @@ body {
 .section-1 {
     background: rgb(0, 0, 0);
     background: linear-gradient(342deg, rgba(0,0,0,0.9023984593837535) 50%, rgba(255,255,255,0) 100%);
-    min-height: 760px;
-    /* margin-top: -120px; */
+    min-height: 500px;
 }
 
 .banner .col-6 h1{
@@ -454,6 +453,11 @@ body {
     .sticky {
         display: none;
     }
+    .testimonial .row .col-3 {
+        width: 75%;
+        text-align: center;
+        margin: 5px auto;
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -491,6 +495,11 @@ body {
 
     .sticky {
         display: none;
+    }
+    .testimonial .row .col-3 {
+        width: 30%;
+        text-align: center;
+        margin: 5px auto;
     }
 }
 
