@@ -79,7 +79,6 @@ body {
         display: flex;
         position: fixed;
         background-color: rgb(150, 150, 150);
-        top: 90px;
         left: 100%;
         text-align: center;
         flex-direction: column;

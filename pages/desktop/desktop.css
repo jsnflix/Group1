@@ -71,7 +71,12 @@ body {
 .section-1 {
     background: rgb(0, 0, 0);
     background: linear-gradient(342deg, rgba(0,0,0,0.9023984593837535) 50%, rgba(255,255,255,0) 100%);
-    min-height: 500px;
+    min-height: 400px;
+}
+
+.section-1 .row p {
+    font-style: italic;
+    font-size: 10px;
 }
 
 .navbar-toggler-icon {
